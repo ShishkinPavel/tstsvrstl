@@ -1,0 +1,13 @@
+[flake8]
+    max-line-length = 100
+    select = E,F,W,C,S
+    ignore = W503
+    import-order-style = google
+    inline-quotes = '
+    exclude =
+        .pytest_cache,
+        __pycache__,
+        venv,
+        .venv,
+        __init__.py,
+        log_generator.py
